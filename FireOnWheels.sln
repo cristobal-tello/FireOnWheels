@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{63396F54-F347-4F3D-85FF-F1ECA8F8E448}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{37F6C138-56C1-4E5E-8CEC-115DD7D4FB6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireOnWheels.Services.Notification", "Services\FireOnWheels.Services.Notification\FireOnWheels.Services.Notification.csproj", "{16DBBCDB-A63B-4C3D-8A65-DE33439F6629}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireOnWheels.Services.RegisterOrder", "Services\FireOnWheels.Services.Registration\FireOnWheels.Services.RegisterOrder.csproj", "{1BC92DBC-1BF6-46D4-8B64-CCEBDC8732F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{1065FB97-F01F-4894-AFE6-2F73F1463D5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireOnWheels.Web", "Web\FireOnWheels.Web\FireOnWheels.Web.csproj", "{527B5766-FEB1-47E6-8ACE-2BD58A9D8776}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireOnWheels.Business", "Business\FireOnWheels.Business.Models\FireOnWheels.Business.csproj", "{236F5432-0436-470B-9AD1-E70DAF3F3BB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B0A58A7-6785-4A1B-BA73-E7FCD5C221C0}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.rd = Readme.rd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16DBBCDB-A63B-4C3D-8A65-DE33439F6629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DBBCDB-A63B-4C3D-8A65-DE33439F6629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DBBCDB-A63B-4C3D-8A65-DE33439F6629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DBBCDB-A63B-4C3D-8A65-DE33439F6629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC92DBC-1BF6-46D4-8B64-CCEBDC8732F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC92DBC-1BF6-46D4-8B64-CCEBDC8732F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC92DBC-1BF6-46D4-8B64-CCEBDC8732F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC92DBC-1BF6-46D4-8B64-CCEBDC8732F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527B5766-FEB1-47E6-8ACE-2BD58A9D8776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527B5766-FEB1-47E6-8ACE-2BD58A9D8776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527B5766-FEB1-47E6-8ACE-2BD58A9D8776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527B5766-FEB1-47E6-8ACE-2BD58A9D8776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236F5432-0436-470B-9AD1-E70DAF3F3BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236F5432-0436-470B-9AD1-E70DAF3F3BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236F5432-0436-470B-9AD1-E70DAF3F3BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236F5432-0436-470B-9AD1-E70DAF3F3BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16DBBCDB-A63B-4C3D-8A65-DE33439F6629} = {63396F54-F347-4F3D-85FF-F1ECA8F8E448}
+		{1BC92DBC-1BF6-46D4-8B64-CCEBDC8732F3} = {63396F54-F347-4F3D-85FF-F1ECA8F8E448}
+		{527B5766-FEB1-47E6-8ACE-2BD58A9D8776} = {1065FB97-F01F-4894-AFE6-2F73F1463D5F}
+		{236F5432-0436-470B-9AD1-E70DAF3F3BB8} = {37F6C138-56C1-4E5E-8CEC-115DD7D4FB6B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38ECD584-538F-43B7-A4BF-2FFB5A921A9F}
+	EndGlobalSection
+EndGlobal
